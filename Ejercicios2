@@ -1,0 +1,19 @@
+import java.util.Scanner;
+class Ejercicios2 {
+    
+    public static void main(String[] args) {
+        Scanner scan = new Scanner (System.in);
+        System.out.print("ingresa tu nombre: ");
+        String nombre = scan.nextLine();
+        System.out.print("ingresa tu edad: ");
+        String edad = scan.nextLine();
+        System.out.print("ingresa tu correo ");
+        String correo = scan.nextLine();
+        
+        
+        System.out.println("");
+        System.out.println("nombre: " + nombre);
+        System.out.println("edad: " + edad);
+        System.out.println("correo: " + correo);
+    }
+}
