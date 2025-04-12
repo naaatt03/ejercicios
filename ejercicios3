@@ -1,0 +1,23 @@
+class ejercicios3 {
+    public static void main(String[] args) {
+        Scanner scan = new scanner (System.in);
+        boolean condicion = true;
+         System.out.print("ha que figura quieres sacarle el area?: ");
+         String figura = scan.nexLine();
+         
+        switch (figura) {
+            case "triangulo":
+                
+     System.out.print("ingresa la medida de sus lados: ");
+     float lados = scan.nextfloat();
+     
+     double area = lados * lados /2;
+     System.out.print("el area del triangulo es: " + area);
+     
+     
+     break;
+     
+     case "circulo":
+        }
+    }
+}
